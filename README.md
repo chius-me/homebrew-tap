@@ -4,7 +4,20 @@
 
 个人 [Homebrew](https://brew.sh) Tap，用于发布和维护命令行工具（Formula）及 macOS 应用（Cask）。
 
-目前仓库已初始化，尚未收录软件。
+## 已收录软件
+
+| 名称 | 类型 | 说明 |
+| --- | --- | --- |
+| [Favicon Fisher](https://github.com/chius-me/favicon-fisher) | Cask | 原生 macOS 菜单栏工具，发现、预览、复制和保存网站图标 |
+
+Favicon Fisher 需要 macOS 14+，同一个安装包支持 Apple Silicon 和 Intel。当前免费版本使用 ad-hoc 签名，未经过 Apple 公证；首次打开如被拦截，请在确认来源后到「系统设置 → 隐私与安全 → 仍要打开」允许此应用。
+
+```sh
+brew install --cask chius-me/tap/favicon-fisher
+brew upgrade --cask chius-me/tap/favicon-fisher
+```
+
+[下载与发布说明](https://github.com/chius-me/favicon-fisher/releases/latest) · [使用说明](https://github.com/chius-me/favicon-fisher/blob/main/docs/macos.md)
 
 ## 使用
 
@@ -14,7 +27,7 @@
 brew tap chius-me/tap
 ```
 
-收录软件后，可直接用完整名称安装（将 `<formula>` 或 `<cask>` 替换为实际名称）：
+其他软件也可直接用完整名称安装（将 `<formula>` 或 `<cask>` 替换为实际名称）：
 
 ```sh
 brew install chius-me/tap/<formula>
