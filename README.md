@@ -1,8 +1,18 @@
+<div align="center">
+
 # Chius Homebrew Tap
 
-[![brew test-bot](https://github.com/chius-me/homebrew-tap/actions/workflows/tests.yml/badge.svg)](https://github.com/chius-me/homebrew-tap/actions/workflows/tests.yml)
+个人 Homebrew 软件源，用于发布与维护命令行工具 (Formula) 及 macOS 应用程序 (Cask)。
 
-个人 [Homebrew](https://brew.sh) Tap，用于发布和维护命令行工具（Formula）及 macOS 应用（Cask）。
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![brew test-bot](https://github.com/chius-me/homebrew-tap/actions/workflows/tests.yml/badge.svg)](https://github.com/chius-me/homebrew-tap/actions/workflows/tests.yml)
+![Homebrew](https://img.shields.io/badge/Homebrew-Tap-FBB040?logo=homebrew&logoColor=white)
+
+[已收录软件](#已收录软件) · [安装使用](#使用) · [问题反馈](https://github.com/chius-me/homebrew-tap/issues)
+
+</div>
+
+---
 
 ## 已收录软件
 
@@ -88,6 +98,12 @@ brew pr-pull --tap=chius-me/tap --head-sha=<reviewed-commit-sha> <pr-number>
 - [Cask Cookbook](https://docs.brew.sh/Cask-Cookbook)
 - [Homebrew 文档](https://docs.brew.sh)
 
-## 许可证
+## 📄 许可证
 
 本仓库中的配方和维护文件采用 [MIT License](LICENSE)。各软件本身遵循其各自的许可证。
+
+---
+
+<div align="center">
+  <sub>Crafted with ❤️ by <a href="https://chius.cc">Chius</a> · Powered by Homebrew & GitHub Actions</sub>
+</div>
